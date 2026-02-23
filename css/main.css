@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+/* Navigation bar */
+
+.logo {
+  height: 8rem;
+}
+.logo-text {
+  font-family: Luckiest guy;
+  font-size: 3rem;
+  margin-left: 1vw;
+  text-decoration: none;
+}
+.hero {
+  max-width: 100%;
+  height: auto;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-right {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+  padding-right: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+.site-nav a {
+  text-decoration: none;
+  color: black;
+}
