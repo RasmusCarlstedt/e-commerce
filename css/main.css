@@ -67,24 +67,46 @@ body {
 }
 
 /* Product page */
-
-.product-header {
-  text-align: center;
-  margin: 1rem 0;
-  font-family: "Montserrat", sans-serif;
-}
 .skatedeck {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding: 2rem;
 }
-.skatedeck img {
+.product-card {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+
+  background: white;
+  border: 0.1rem solid rgb(73, 82, 92);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.product-card img {
   width: 100%;
   height: auto;
   display: block;
-  border: 0.1rem solid rgb(73, 82, 92);
-  border-radius: 0.25rem;
+}
+
+.product-name {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.product-price {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* Specific product */
