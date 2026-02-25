@@ -14,10 +14,7 @@ body {
   margin-left: 1vw;
   text-decoration: none;
 }
-.hero {
-  max-width: 100%;
-  height: auto;
-}
+
 .site-nav {
   display: flex;
   align-items: center;
@@ -46,6 +43,27 @@ body {
 .shop-button {
   text-decoration: none;
   background-color: yellow;
+}
+/* Landing page */
+
+.hero-section {
+  position: relative;
+}
+.hero {
+  width: 100%;
+  display: block;
+}
+.shop-button {
+  position: absolute;
+  bottom: 10%;
+  left: 60%;
+  background-color: #f4c542;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: 0.08rem solid black;
+  text-decoration: none;
 }
 
 /* Product page */
