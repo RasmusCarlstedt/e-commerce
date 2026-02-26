@@ -64,6 +64,12 @@ body {
   border-radius: 0.5rem;
   border: 0.08rem solid black;
   text-decoration: none;
+  filter: drop-shadow(0 0.4rem 4px #000000);
+  transition: background-color 0.4s ease;
+}
+
+.shop-button:hover {
+  background-color: #d5ad3d;
 }
 
 /* Product page */
@@ -87,6 +93,7 @@ body {
   border: 0.1rem solid rgb(73, 82, 92);
   border-radius: 0.5rem;
   padding: 1.5rem;
+  filter: drop-shadow(0 0.2rem 3px #000000);
 }
 
 .product-card img {
@@ -98,7 +105,7 @@ body {
 .product-name {
   margin: 0;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
 }
 
