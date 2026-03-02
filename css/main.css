@@ -117,12 +117,22 @@ body {
 }
 
 /* Specific product */
-
 .product-page {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 3rem;
-  padding: 3rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  align-items: start;
+}
+
+.product-image,
+.product-details {
+  background: white;
+  border: 1px solid #49525c;
+  border-radius: 8px;
+  padding: 1.5rem;
 }
 
 .product-image img {
@@ -132,7 +142,34 @@ body {
 }
 
 .product-details {
+  font-family: "Montserrat", sans-serif;
+}
+.price {
+  font-weight: 700;
+}
+.controls {
   display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
+  align-items: center;
+}
+.quantity {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.quantity button {
+  background: #f4c542;
+  border: 0;
+  padding: 0.5rem 1rem;
+}
+.quantity span {
+  padding: 1rem;
+  font-weight: 700;
+}
+.add-cart {
+  background: #f4c542;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
 }
