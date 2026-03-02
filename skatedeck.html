@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Luckiest+Guy&display=swap"
       rel="stylesheet"
     />
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <nav class="site-nav">
@@ -50,11 +51,14 @@
 
         <div class="controls">
           <div class="quantity">
-            <button type="button">-</button>
-            <span>1</span>
-            <button type="button">+</button>
+            <button id="minus-button" type="button">-</button>
+            <span id="quantity-number">1</span>
+            <button id="plus-button" type="button">+</button>
           </div>
-          <button class="add-cart" type="button">Add to cart</button>
+
+          <button id="add-cart-button" class="add-cart" type="button">
+            Add to cart
+          </button>
         </div>
       </div>
     </section>
