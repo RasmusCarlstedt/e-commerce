@@ -130,9 +130,10 @@ body {
 .product-image,
 .product-details {
   background: white;
-  border: 1px solid #49525c;
+  border: 0.1rem solid #49525c;
   border-radius: 8px;
   padding: 1.5rem;
+  filter: drop-shadow(0 0.2rem 3px #000000);
 }
 
 .product-image img {
