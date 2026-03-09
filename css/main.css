@@ -44,6 +44,20 @@ body {
   text-decoration: none;
   background-color: yellow;
 }
+/* Navigation breaking-point */
+@media (max-width: 1000px) {
+  .site-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-right {
+    justify-content: center;
+    gap: 2rem;
+    padding-right: 0;
+  }
+}
 /* Landing page */
 
 .hero-section {
@@ -75,10 +89,24 @@ body {
 /* Product page */
 .skatedeck {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   padding: 2rem;
 }
+
+/* Breaking-points for products */
+@media (min-width: 700px) {
+  .skatedeck {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  .skatedeck {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .product-card {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
@@ -199,3 +227,5 @@ body {
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
+
+/* Breakpoints */
