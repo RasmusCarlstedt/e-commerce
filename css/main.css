@@ -163,6 +163,7 @@ body {
   background: #f4c542;
   border: 0;
   padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 .quantity span {
   padding: 1rem;
@@ -173,4 +174,28 @@ body {
   border: 1px solid black;
   border-radius: 8px;
   padding: 0.7rem 1.2rem;
+  cursor: pointer;
+}
+
+/* Checkout site */
+.cart-page {
+  max-width: 500px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+#cart-item {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#remove-button {
+  display: block;
+  margin: 1.5rem auto;
+  background: #f4c542;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
